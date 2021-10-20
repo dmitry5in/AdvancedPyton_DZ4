@@ -28,8 +28,8 @@ class CountriesIterator:
             raise StopIteration
 
 
-for i in CountriesIterator():
-    print(i)
+for item in CountriesIterator():
+    print(item)
 
 
 
